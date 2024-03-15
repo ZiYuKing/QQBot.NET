@@ -69,6 +69,7 @@
 | CreateChannelAsync | 创建子频道 | 🟢 |
 | ModifyChannelAsync | 修改子频道信息 | 🟢 |
 | DeleteChannelAsync | 删除子频道 | 🟢 |
+| GetChannelOnlineMemberCountAsync | 获取子频道在线成员数 | 🟢 |
 | 敬请期待。。。 | 敬请期待。。。 | 🔴 |
 
 </Details>

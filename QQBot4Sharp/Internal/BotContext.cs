@@ -382,6 +382,12 @@ namespace QQBot4Sharp.Internal
 		public async Task DeleteChannelAsync(string channelID)
 			=> await DeleteAsync($"https://api.sgroup.qq.com/channels/{channelID}");
 
+		public async Task<int> GetChannelOnlineMemberCountAsync(string channelID)
+		{
+			ChannelOnlineMemberCountRes res = await GetAsync<ChannelOnlineMemberCountRes>($"https://api.sgroup.qq.com/channels/{channelID}/online_nums");
+			return res.OnlineNumbers;
+		}
+
 		#endregion
 
 		public void Dispose()

@@ -730,6 +730,15 @@ namespace QQBot4Sharp
 		public Task DeleteChannelAsync(string channelID)
 			=> _botContext.DeleteChannelAsync(channelID);
 
+		/// <summary>
+		/// 获取子频道在线成员数<br/>用于查询音视频/直播子频道 channel_id 的在线成员数。
+		/// </summary>
+		/// <param name="channelID">子频道ID</param>
+		/// <returns>子频道在线成员数结果</returns>
+		/// <exception cref="APIException"></exception>
+		public Task<int> GetChannelOnlineMemberCountAsync(string channelID)
+			=> _botContext.GetChannelOnlineMemberCountAsync(channelID);
+
 		#endregion
 
 		/// <inheritdoc/>
