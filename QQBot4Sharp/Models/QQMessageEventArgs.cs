@@ -1,10 +1,10 @@
-﻿using QQBot4Sharp.Internal;
+﻿using QQBot.NET.Internal;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QQBot4Sharp.Models.QQ
+namespace QQBot.NET.Models.QQ
 {
     /// <summary>
     /// QQ消息事件参数

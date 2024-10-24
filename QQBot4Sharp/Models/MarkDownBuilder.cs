@@ -1,9 +1,9 @@
-﻿using QQBot4Sharp.Utils;
+﻿using QQBot.NET.Utils;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Models
+namespace QQBot.NET.Models
 {
     /// <summary>
     /// MarkDown构造器

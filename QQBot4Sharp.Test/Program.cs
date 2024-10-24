@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json.Linq;
-using QQBot4Sharp.Models;
+using QQBot.NET.Models;
 using Serilog;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace QQBot4Sharp.Test
+namespace QQBot.NET.Test
 {
     internal class Program
 	{

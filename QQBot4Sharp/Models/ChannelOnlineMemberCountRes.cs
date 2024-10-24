@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace QQBot4Sharp.Models
+namespace QQBot.NET.Models
 {
 	/// <summary>
 	/// 子频道在线成员数结果

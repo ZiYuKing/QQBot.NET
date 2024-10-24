@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Models
+namespace QQBot.NET.Models
 {
     /// <summary>
     /// 表情对象<br/><a href="https://bot.q.qq.com/wiki/develop/api-v2/openapi/emoji/model.html#emoji%E5%88%97%E8%A1%A8">Emoji列表</a>

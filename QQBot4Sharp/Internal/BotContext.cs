@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using QQBot4Sharp.Exceptions;
-using QQBot4Sharp.Internal.API;
-using QQBot4Sharp.Models;
+using QQBot.NET.Exceptions;
+using QQBot.NET.Internal.API;
+using QQBot.NET.Models;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QQBot4Sharp.Internal
+namespace QQBot.NET.Internal
 {
     /// <summary>
     /// 机器人上下文，用于处理Http请求与响应（短连接）
@@ -38,7 +38,7 @@ namespace QQBot4Sharp.Internal
 			_service = service;
 			_httpClient = new();
 			_httpClient.DefaultRequestHeaders.Add("X-Union-Appid", _service.CreateInfo.AppID);
-			_httpClient.DefaultRequestHeaders.UserAgent.Add(new($"QQBot4Sharp", Assembly.GetExecutingAssembly().GetName().Version.ToString()));
+			_httpClient.DefaultRequestHeaders.UserAgent.Add(new($"QQBot.NET", Assembly.GetExecutingAssembly().GetName().Version.ToString()));
 			_accessTokenUpdater = new(this);
 			_botWebSocket = new(this);
 		}

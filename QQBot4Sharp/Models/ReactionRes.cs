@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Models
+namespace QQBot.NET.Models
 {
     /// <summary>
     /// 获取消息表情表态的用户列表结果

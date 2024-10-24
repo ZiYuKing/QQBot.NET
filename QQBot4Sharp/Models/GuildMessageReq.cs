@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Models
+namespace QQBot.NET.Models
 {
     /// <summary>
     /// 可发送的消息<br/>content, embed, ark, image, markdown 至少需要有一个字段，否则无法下发消息。

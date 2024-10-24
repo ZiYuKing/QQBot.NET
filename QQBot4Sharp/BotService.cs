@@ -1,7 +1,7 @@
-﻿using QQBot4Sharp.Exceptions;
-using QQBot4Sharp.Internal;
-using QQBot4Sharp.Internal.API;
-using QQBot4Sharp.Models;
+﻿using QQBot.NET.Exceptions;
+using QQBot.NET.Internal;
+using QQBot.NET.Internal.API;
+using QQBot.NET.Models;
 using Serilog;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace QQBot4Sharp
+namespace QQBot.NET
 {
     /// <summary>
     /// 异步事件处理器

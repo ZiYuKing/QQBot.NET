@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Utils
+namespace QQBot.NET.Utils
 {
 	/// <summary>
 	/// 频道消息帮助类，可以转义/逆转义消息

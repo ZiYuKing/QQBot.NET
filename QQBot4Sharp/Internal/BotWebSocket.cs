@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
-using QQBot4Sharp.Internal.API;
-using QQBot4Sharp.Internal.Events;
+using QQBot.NET.Internal.API;
+using QQBot.NET.Internal.Events;
 using Serilog;
 using System;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WatsonWebsocket;
 
-namespace QQBot4Sharp.Internal
+namespace QQBot.NET.Internal
 {
 	/// <summary>
 	/// 机器人WebSocket，用于处理WebSocket交互（长连接）

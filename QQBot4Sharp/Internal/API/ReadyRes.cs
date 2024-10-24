@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using QQBot4Sharp.Models;
+using QQBot.NET.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Internal.API
+namespace QQBot.NET.Internal.API
 {
     internal struct ReadyRes
 	{

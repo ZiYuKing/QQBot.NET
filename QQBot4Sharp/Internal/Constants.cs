@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Internal
+namespace QQBot.NET.Internal
 {
 	internal static class Constants
 	{

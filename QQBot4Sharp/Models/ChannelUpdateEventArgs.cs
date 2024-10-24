@@ -1,9 +1,9 @@
-﻿using QQBot4Sharp.Internal;
+﻿using QQBot.NET.Internal;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Models
+namespace QQBot.NET.Models
 {
 	/// <summary>
 	/// 子频道更新事件参数

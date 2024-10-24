@@ -1,11 +1,11 @@
-﻿using QQBot4Sharp.Internal.API;
-using QQBot4Sharp.Internal.Models;
+﻿using QQBot.NET.Internal.API;
+using QQBot.NET.Internal.Models;
 using Serilog;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace QQBot4Sharp.Internal
+namespace QQBot.NET.Internal
 {
 	/// <summary>
 	/// AccessToken更新器，可以自动更新AccessToken

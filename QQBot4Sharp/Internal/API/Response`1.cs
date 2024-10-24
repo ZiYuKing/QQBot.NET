@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace QQBot4Sharp.Internal.API
+namespace QQBot.NET.Internal.API
 {
 	internal struct Response<T>
 	{

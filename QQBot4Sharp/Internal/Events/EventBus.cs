@@ -1,9 +1,9 @@
-﻿using QQBot4Sharp.Internal.API;
+﻿using QQBot.NET.Internal.API;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace QQBot4Sharp.Internal.Events
+namespace QQBot.NET.Internal.Events
 {
     internal class EventBus : IDisposable
 	{

@@ -1,7 +1,7 @@
-﻿using QQBot4Sharp.Internal.API;
+﻿using QQBot.NET.Internal.API;
 using System;
 
-namespace QQBot4Sharp.Internal.Models
+namespace QQBot.NET.Internal.Models
 {
 	internal class AccessTokenInfo
 	{

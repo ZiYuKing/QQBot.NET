@@ -1,9 +1,9 @@
-﻿using QQBot4Sharp.Internal.API;
+﻿using QQBot.NET.Internal.API;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Exceptions
+namespace QQBot.NET.Exceptions
 {
 	/// <summary>
 	/// API异常

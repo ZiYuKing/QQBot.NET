@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QQBot4Sharp.Internal.API
+namespace QQBot.NET.Internal.API
 {
 	internal struct GetAppAccessTokenReq
 	{

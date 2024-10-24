@@ -1,6 +1,6 @@
 <div align="center">
 
-# QQBot4Sharp
+# QQBot.NET
 一个基于 [QQ官方机器人API](https://bot.q.qq.com/wiki/) 的 [C# .NET Standard 2.1](https://github.com/dotnet/dotnet) 异步封装库
 
 </div>
@@ -11,12 +11,12 @@
 **注：本项目不提供创建机器人、机器人功能申请等服务，需要您自行前往 [QQ开放平台](https://q.qq.com/#/app/bot) 注册、创建自己的机器人，并申请相关功能。**  
 
 ## 安装
-方法一：QQBot4Sharp 已发布到 [NuGet](https://www.nuget.org/packages/QQBot4Sharp) ，可以通过相关工具安装到您的项目  
-方法二：从 [Releases](https://github.com/XeronOwO/QQBot4Sharp/releases) 中下载 .nupkg 并安装到您的项目  
+方法一：QQBot.NET 已发布到 [NuGet](https://www.nuget.org/packages/QQBot.NET) ，可以通过相关工具安装到您的项目  
+方法二：从 [Releases](https://github.com/XeronOwO/QQBot.NET/releases) 中下载 .nupkg 并安装到您的项目  
 方法三：通过 git clone 项目到本地，添加项目引用到您的项目
 
 ## 使用方法
-见 [QQBot4Sharp.Test/Program.cs](QQBot4Sharp.Test/Program.cs) 。
+见 [QQBot.NET.Test/Program.cs](QQBot.NET.Test/Program.cs) 。
 
 ## 已实现功能
 

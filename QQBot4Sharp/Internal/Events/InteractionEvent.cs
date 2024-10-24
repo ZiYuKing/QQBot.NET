@@ -1,11 +1,11 @@
-﻿using QQBot4Sharp.Internal.API;
-using QQBot4Sharp.Models;
+﻿using QQBot.NET.Internal.API;
+using QQBot.NET.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QQBot4Sharp.Internal.Events
+namespace QQBot.NET.Internal.Events
 {
     internal class InteractionEvent : Event
 	{
