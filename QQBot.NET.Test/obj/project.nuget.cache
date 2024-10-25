@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DSYkvRtB2gj6U48L5+s69qm1iRJhv1L5ic4rG/2I52dVXaj29CJDdHM3aFZPFiWWNzCTBpDPvdl3WzY84DVH3A==",
+  "success": true,
+  "projectFilePath": "G:\\GitHub\\QQBot.NET\\QQBot.NET.Test\\QQBot.NET.Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\King\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\serilog\\3.1.2-dev-02097\\serilog.3.1.2-dev-02097.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\serilog.sinks.console\\5.0.1\\serilog.sinks.console.5.0.1.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\watsonwebsocket\\4.0.11\\watsonwebsocket.4.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

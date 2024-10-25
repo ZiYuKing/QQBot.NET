@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "tVJhrc9Mo5auMpfyaJWkTrso+TWYO6KV2sIdS2uKaNRYkzp9SUbu4Ro3Yvvxdv2Y05Us/fu8FJ3mY60HakQKmA==",
+  "success": true,
+  "projectFilePath": "G:\\GitHub\\QQBot.NET\\QQBot.NET\\QQBot.NET.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\King\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\serilog\\3.1.2-dev-02097\\serilog.3.1.2-dev-02097.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\King\\.nuget\\packages\\watsonwebsocket\\4.0.11\\watsonwebsocket.4.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>QQBot.NET</id>
+    <version>1.0.1.1</version>
+    <title>QQBot4Sharp</title>
+    <authors>QQBot.NET</authors>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/XeronOwO/QQBot4Sharp</projectUrl>
+    <description>一个基于 QQ官方机器人API 的 C# .NET Standard 2.1 异步封装库</description>
+    <tags>QQBot4Sharp QQBot QQ Bot</tags>
+    <repository type="git" url="https://github.com/XeronOwO/QQBot4Sharp" commit="989207664c4ff581f5c96684ddec3b0e274e0fae" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="3.1.2-dev-02097" exclude="Build,Analyzers" />
+        <dependency id="WatsonWebsocket" version="4.0.11" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="G:\GitHub\QQBot.NET\QQBot.NET\bin\Debug\netstandard2.1\QQBot.NET.dll" target="lib\netstandard2.1\QQBot.NET.dll" />
+    <file src="G:\GitHub\QQBot.NET\QQBot.NET\bin\Debug\netstandard2.1\QQBot.NET.xml" target="lib\netstandard2.1\QQBot.NET.xml" />
+    <file src="G:\GitHub\QQBot.NET\README.md" target="\README.md" />
+    <file src="G:\GitHub\QQBot.NET\LICENSE.txt" target="\LICENSE.txt" />
+  </files>
+</package>

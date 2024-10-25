@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\QQBot4Sharp\QQBot.NET.csproj" />
+    <ProjectReference Include="..\QQBot.NET\QQBot.NET.csproj" />
   </ItemGroup>
 
 </Project>
