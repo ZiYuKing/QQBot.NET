@@ -55,8 +55,8 @@ namespace QQBot.NET.Internal.Events
 				Data = new()
 				{
 					Token = $"QQBot {accessToken}",
-					Intents = Intents.PUBLIC_GUILD_MESSAGES,
-					Shard = new() { 0, 4 },
+					Intents = Intents.ALL_PUBLIC,
+					Shard = new() { 0, 1 },
 					Properties = new(),
 				},
 			});

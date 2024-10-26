@@ -6,9 +6,9 @@ using System.Text;
 namespace QQBot.NET.Models
 {
     /// <summary>
-    /// QQ私聊消息结果
+    /// QQ群消息结果
     /// </summary>
-    public class QQMessageRes
+    public class QQGroupMessageRes
     {
         /// <summary>
         /// 消息唯一ID
@@ -20,6 +20,6 @@ namespace QQBot.NET.Models
         /// 发送时间
         /// </summary>
         [JsonProperty("timestamp")]
-        public string Timestamp { get; set; }
+        public int Timestamp { get; set; }
     }
 }

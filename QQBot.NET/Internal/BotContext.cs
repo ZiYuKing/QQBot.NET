@@ -55,7 +55,7 @@ namespace QQBot.NET.Internal
 			Log.Debug($"HTTP响应 => {str}");
 			var jToken = JToken.Parse(str);
 			var res = new Response<TRes>();
-			if (jToken is JObject jObj && jObj.ContainsKey("code")) // 尼玛API就不能统一用code、message、data格式吗？？？
+			if (jToken is JObject jObj && jObj.ContainsKey("code"))
 			{
 				res.Code = jObj["code"].Value<int>();
 				res.Message = jObj["message"].Value<string>();
@@ -98,7 +98,7 @@ namespace QQBot.NET.Internal
 			Log.Debug($"HTTP响应 => {str}");
 			var jToken = JToken.Parse(str);
 			var res = new Response<TRes>();
-			if (jToken is JObject jObj && jObj.ContainsKey("code")) // 尼玛API就不能统一用code、message、data格式吗？？？
+			if (jToken is JObject jObj && jObj.ContainsKey("code"))
 			{
 				res.Code = jObj["code"].Value<int>();
 				res.Message = jObj["message"].Value<string>();
@@ -133,7 +133,7 @@ namespace QQBot.NET.Internal
 			Log.Debug($"HTTP响应 => {str}");
 			var jToken = JObject.Parse(str);
 			var res = new Response<TRes>();
-			if (jToken is JObject jObj && jObj.ContainsKey("code")) // 尼玛API就不能统一用code、message、data格式吗？？？
+			if (jToken is JObject jObj && jObj.ContainsKey("code"))
 			{
 				res.Code = jObj["code"].Value<int>();
 				res.Message = jObj["message"].Value<string>();
@@ -161,7 +161,7 @@ namespace QQBot.NET.Internal
 			{
 				var res = new Response();
 				var jobj = JObject.Parse(str);
-				if (jobj.ContainsKey("code")) // 尼玛API就不能统一用code、message、data格式吗？？？
+				if (jobj.ContainsKey("code"))
 				{
 					res.Code = jobj["code"].Value<int>();
 					res.Message = jobj["message"].Value<string>();
@@ -193,7 +193,7 @@ namespace QQBot.NET.Internal
 			{
 				var res = new Response();
 				var jobj = JObject.Parse(str);
-				if (jobj.ContainsKey("code")) // 尼玛API就不能统一用code、message、data格式吗？？？
+				if (jobj.ContainsKey("code"))
 				{
 					res.Code = jobj["code"].Value<int>();
 					res.Message = jobj["message"].Value<string>();
@@ -226,7 +226,7 @@ namespace QQBot.NET.Internal
 			Log.Debug($"HTTP响应 => {str}");
 			var jToken = JObject.Parse(str);
 			var res = new Response<TRes>();
-			if (jToken is JObject jObj && jObj.ContainsKey("code")) // 尼玛API就不能统一用code、message、data格式吗？？？
+			if (jToken is JObject jObj && jObj.ContainsKey("code"))
 			{
 				res.Code = jObj["code"].Value<int>();
 				res.Message = jObj["message"].Value<string>();

@@ -184,9 +184,9 @@ namespace QQBot.NET
 		/// <summary>
 		/// 单聊消息<br/>用户在单聊发送消息给机器人
 		/// </summary>
-		public event AsyncEventHandler<Models.QQ.QQMessageEventArgs> OnC2CMessageCreateAsync;
+		public event AsyncEventHandler<Models.QQ.QQUserMessageEventArgs> OnC2CMessageCreateAsync;
 
-		internal async Task SendC2CMessageCreateEventAsync(Models.QQ.QQMessageEventArgs e)
+		internal async Task SendC2CMessageCreateEventAsync(Models.QQ.QQUserMessageEventArgs e)
 		{
 			try
 			{
@@ -204,9 +204,9 @@ namespace QQBot.NET
 		/// <summary>
 		/// 群聊@机器人<br/>用户在群内@机器人发动的消息
 		/// </summary>
-		public event AsyncEventHandler<Models.QQ.QQMessageEventArgs> OnGroupAtMessageCreateAsync;
+		public event AsyncEventHandler<Models.QQ.QQGroupMessageEventArgs> OnGroupAtMessageCreateAsync;
 
-		internal async Task SendGroupAtMessageCreateEventAsync(Models.QQ.QQMessageEventArgs e)
+		internal async Task SendGroupAtMessageCreateEventAsync(Models.QQ.QQGroupMessageEventArgs e)
 		{
 			try
 			{

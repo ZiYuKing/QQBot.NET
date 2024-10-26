@@ -12,7 +12,7 @@ namespace QQBot.NET.Internal.Models
 		private DateTime _expireTime;
 
 		/// <summary>
-		/// 失效时间<br/>尼玛有的API返回具体时间，有的API返回时间戳数值，而且这数值还是字符串类型的，你后端怎么这么不统一啊？？？
+		/// 失效时间<br/>有的API返回具体时间，有的API返回时间戳数值，而且这数值还是字符串类型的，你后端怎么这么不统一啊？？？
 		/// </summary>
 		public DateTime ExpireTime => _expireTime;
 

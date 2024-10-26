@@ -23,6 +23,12 @@ namespace QQBot.NET.Models
         public QQUser Author { get; set; }
 
         /// <summary>
+        /// 发送 QQ 群 ID
+        /// </summary>
+        [JsonProperty("group_openid")]
+        public string Group_OpenID { get; set; }
+
+        /// <summary>
         /// 文本消息内容
         /// </summary>
         [JsonProperty("content")]
