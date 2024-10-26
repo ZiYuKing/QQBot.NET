@@ -18,21 +18,15 @@ namespace QQBot.NET.Test
 				.WriteTo.Console()
 				.CreateLogger();
 
-            // 读取配置文件
-            //_jConfig = JObject.Parse(File.ReadAllText("config.json"));
-            //var info = new BotCreateInfo()
-            //{
-            //	AppID = (string?)_jConfig["AppID"],
-            //	ClientSecret = (string?)_jConfig["ClientSecret"],
-            //	Intents = Intents.ALL,
-            //};
+			// 读取配置文件
+		   _jConfig = JObject.Parse(File.ReadAllText("config.json"));
+			var info = new BotCreateInfo()
+			{
+				AppID = (string?)_jConfig["AppID"],
+				ClientSecret = (string?)_jConfig["ClientSecret"],
+				Intents = Intents.ALL,
+			};
 
-            var info = new BotCreateInfo()
-            {
-                AppID = "102461004",
-                ClientSecret = "qcOAwiUH4reRE1pdRF3rfTI7wlaPE4uk",
-                Intents = Intents.ALL,
-            };
 
             // 创建机器人服务
             using var bot = new BotService(info);
@@ -412,7 +406,7 @@ namespace QQBot.NET.Test
 		/// <summary>
 		/// 单聊事件
 		/// </summary>
-		private static async Task OnC2CMessageCreateAsync(object sender, Models.QQ.QQMessageEventArgs e)
+		private static async Task OnC2CMessageCreateAsync(object sender, Models.QQ.QQUserMessageEventArgs e)
 		{
 			await e.ReplyAsync(new()
 			{
@@ -425,7 +419,7 @@ namespace QQBot.NET.Test
 		/// <summary>
 		/// 群聊事件
 		/// </summary>
-		private static async Task OnGroupAtMessageCreateAsync(object sender, Models.QQ.QQMessageEventArgs e)
+		private static async Task OnGroupAtMessageCreateAsync(object sender, Models.QQ.QQGroupMessageEventArgs e)
 		{
 			await e.ReplyAsync(new()
 			{
