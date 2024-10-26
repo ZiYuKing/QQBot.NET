@@ -7,7 +7,7 @@
 
 ## 说明
 本项目基于 [QQ官方机器人文档](https://bot.q.qq.com/wiki/) 编写，是对QQ官方API的异步封装库，使 .NET 开发者能更便捷、快速地使用QQ官方API来编写属于自己的机器人。  
-本项目中有很多已实现但未测试的功能，如果有bug，请在issues中提出，但不一定能得到修复。别问，问就是啥功能都要申请，我懒得写申请，或者是写了也没资格使用功能。结果很多功能都没法DEBUG，只能凭感觉开发。~~老子是来写机器人的，又不是来写申请文案的，麻烦得要死。~~  
+本项目中有很多已实现但未测试的功能，如果有bug，请在issues中提出，但不一定能得到修复。
 **注：本项目不提供创建机器人、机器人功能申请等服务，需要您自行前往 [QQ开放平台](https://q.qq.com/#/app/bot) 注册、创建自己的机器人，并申请相关功能。**  
 
 ## 安装
@@ -26,8 +26,8 @@
 | 名称 | 描述 | 状态 |
 | --- | --- | :---: |
 | OnReadyAsync | 可以理解为Bot已上线<br/>鉴权成功后，QQ 后台会下发一个 Ready Event | 🟢 |
-| OnC2CMessageCreateAsync | 单聊消息<br/>用户在单聊发送消息给机器人 | 🟣 |
-| OnGroupAtMessageCreateAsync | 群聊@机器人<br/>用户在群内@机器人发动的消息 | 🟣 |
+| OnC2CMessageCreateAsync | 单聊消息<br/>用户在单聊发送消息给机器人 | 🟢 |
+| OnGroupAtMessageCreateAsync | 群聊@机器人<br/>用户在群内@机器人发动的消息 | 🟢 |
 | OnDirectMessageCreateAsync | 频道私信消息<br/>用户在频道私信给机器人发送的消息 | 🟢 |
 | OnAtMessageCreateAsync | 文字子频道@机器人<br/>用户在文字子频道内@机器人发送的消息 | 🟢 |
 | OnMessageCreateAsync | 文字子频道全量消息（私域）<br/>用户在文字子频道内发送的所有聊天消息（私域） | 🟢 |
@@ -48,8 +48,8 @@
 
 | 名称 | 描述 | 状态 |
 | --- | --- | :---: |
-| SendUserMessageAsync | 发送单聊消息 | 🟣 |
-| SendGroupMessageAsync | 发送群聊消息 | 🟣 |
+| SendUserMessageAsync | 发送单聊消息 | 🟢 |
+| SendGroupMessageAsync | 发送群聊消息 | 🟢 |
 | SendChannelMessageAsync | 发送文字子频道消息<br/>注意：如果消息需要审核，会抛出异常，详见 <a href="https://bot.q.qq.com/wiki/develop/api/openapi/error/error.html#%E9%94%99%E8%AF%AF%E7%A0%81%E5%A4%84%E7%90%86">错误码处理</a> 304023与304024 | 🟢 |
 | CreateDirectMessageSessionAsync | 创建频道私信会话<br/>用于机器人和在同一个频道内的成员创建私信会话。 | 🟢 |
 | SendDirectMessageAsync | 发送频道私信消息，需要先调用<see cref="CreateDirectMessageSessionAsync(DirectMessageSessionCreateInfo)"/>创建私信会话，再调用此接口发送消息，否则会报错<br/>注意：如果消息需要审核，会抛出异常，详见 <a href="https://bot.q.qq.com/wiki/develop/api/openapi/error/error.html#%E9%94%99%E8%AF%AF%E7%A0%81%E5%A4%84%E7%90%86">错误码处理</a> 304023与304024 | 🟢 |
